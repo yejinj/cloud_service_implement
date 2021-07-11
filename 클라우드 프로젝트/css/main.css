@@ -1,0 +1,176 @@
+body{
+    background-color: white;
+}
+
+.header_font{
+    /* 가운데 정렬 */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 25px;
+    margin: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.menu_bar{
+    margin-top: 100px;
+    background-color: rgb(228, 228, 228);
+    width: max-content;
+    height: max-content;
+    padding: 5px 15px 20px 15px;
+}
+
+.sign_in{
+    margin: 0px 0px 0px 0px;
+}
+
+#sign_in{
+    border-radius: 5px;
+    font-size: 17px;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    border: 1px white solid;
+    cursor: pointer;
+}
+
+#sign_in:hover{
+    transform: scale(1.1);
+}
+
+#log_in{
+    border-radius: 5px;
+    font-size: 17px;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    border: 1px white solid;
+    cursor: pointer;
+}
+
+#log_in:hover{
+    transform: scale(1.1);
+}
+
+.upload{
+    margin: 25px 0px 25px 0px;
+}
+
+#upload{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.upload_items{
+    cursor: pointer;
+    margin: 7px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.upload_items:hover{
+    transform: scale(1.1);
+}
+
+.download{
+    margin: 25px 0px 15px 0px;
+}
+
+#download{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.download_items{
+    margin: 7px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.download_items:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#delete{
+    font-size: 18px;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+#delete_font{
+    font-size: 15px;
+    color: rgb(163, 21, 21);
+}
+
+.delete_btn{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(250, 241, 241);
+    border: 1px solid rgba(182, 132, 132, 0.925);
+    width: max-content;
+    padding: 0px 5px 0px 5px;
+    height: 35px;
+    margin: 5px 0px 5px 0px;
+}
+
+.delete_btn:hover{
+    transform: scale(1.1);
+}
+
+#sign_in_form,
+#log_in_form,
+#upload_music,
+#upload_photo,
+#upload_document,
+#upload_all,
+#download_music,
+#download_photo,
+#download_document,
+#download_all{ 
+    margin-top: -580px;
+    margin-left: 500px;
+    padding: 15px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    width: 600px;
+    text-align: center;
+}
+
+.load_basic_font{
+    font-size: 19px;
+}
+
+.file{
+    margin: 30px 0px 20px 0px;
+}
+
+/* 다운로드 */
+#cloud_photo_container_1{
+    text-align: center;
+    align-items: center;
+    transform: scale(0.3);
+}
+
+.cloud_download{
+    border-radius: 15px;
+    margin: 50px 0px 0px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px white solid;
+    height: 75px;
+    width: 100px;
+    background-color: antiquewhite;
+    padding: 20px 0px 20px 0px;
+}
+
+.cloud_download:hover{
+    transform: scale(1.1);
+}

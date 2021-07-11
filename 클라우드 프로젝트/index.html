@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cloud Project </title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+    </style>
+</head>
+
+<!-- 백업 전략 -->
+
+<body>
+    <header>
+        <div class="header_font">
+            간단한 클라우드 서비스 구현
+        </div>
+
+        <div class="menu_bar">
+            <div class="sign_in">
+                <button id="sign_in" onclick="event0()">
+                    회원가입
+                </button>
+                <button id="log_in" onclick="event1()">
+                    로그인
+                </button>
+            </div>
+
+            <div class="upload">
+                <div id="upload">
+                    업로드 Upload
+                </div>
+                <div class="upload_items" onclick="event2()">
+                    음악
+                </div>
+                <div class="upload_items" onclick="event3()">
+                    사진
+                </div>
+                <div class="upload_items" onclick="event4()">
+                    문서
+                </div>
+                <div class="upload_items" onclick="event5()">
+                    모든 파일
+                </div>
+            </div>
+
+            <div class="download">
+                <div id="download">
+                   다운로드 Download
+                </div>
+                <div class="download_items" onclick="event6()">
+                    음악
+                </div>
+                <div class="download_items" onclick="event7()">
+                    사진
+                </div>
+                <div class="download_items" onclick="event8()">
+                    문서
+                </div>
+                <div class="download_items" onclick="event9()">
+                    모든 파일
+                </div>
+            </div>
+
+            <div id="delete">
+                <font id="delete_font">
+                    ! Danger Zone<br>
+                </font>
+                삭제 Delete <br>
+                <button class="delete_btn">
+                    선택 삭제
+                </button> <br>
+        
+                <button class="delete_btn">
+                    모든 파일 삭제
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="sign_in_form" style="display: none;">
+        <div class="load_basic_font">
+            회원가입
+            <!-- form -->
+        </div>
+    </div>
+    
+    <div id="log_in_form" style="display: none;">
+        <div class="load_basic_font">
+            로그인
+        </div>
+    </div>
+
+    <!-- 클릭시 보이는 -->
+    <div id="upload_music" style="display: none;">
+        <div class="load_basic_font">
+            음악을 업로드해보세요
+        </div>
+        <input type="file"
+        accept="audio/*"
+        class="file"
+        onchange="setThumbnail(event);"
+        multiple/>
+    </div>
+
+    <div id="upload_photo" style="display: none;">
+        <div class="load_basic_font">
+            사진을 업로드해보세요 <br>
+        </div>
+        <input type="file"
+        accept="image/*"
+        class="file"
+        onchange="upload_photo(event);"
+        multiple/>
+    </div>
+
+    <div id="upload_document" style="display: none;">
+        <div class="load_basic_font">
+            문서를 업로드해보세요 <br>
+        </div>
+        <input type="file"
+        class="file"
+        onchange="upload_document(event);"
+        multiple/>
+    </div>
+
+    <div id="upload_all" style="display: none;">
+        <div class="load_basic_font">
+            아무 파일이나 업로드해보세요 <br>
+        </div>
+        <input type="file" class="file">
+    </div>
+
+    <div id="download_music" style="display: none;">
+        <div class="load_basic_font">
+            음악을 다운로드해보세요
+        </div>
+        <div>
+            음악 파일 목록
+        </div>
+    </div>
+
+    <div id="download_photo" style="display: none;">
+        <div class="load_basic_font">
+            사진을 다운로드해보세요
+            <div id="cloud_photo_container_1">
+                <!-- 이미지 등장 -->
+            </div>
+
+            <button class="cloud_download" download="cloud_photo_container_1">
+                다운로드
+            </button>
+        </div>
+    </div>
+
+    <div id="download_document" style="display: none;">
+        <div class="load_basic_font">
+            문서를 다운로드해보세요
+            <div id="cloud_document_container_1">
+                <!-- 문서 등장 -->
+            </div>
+
+            <button class="cloud_download" download="cloud_photo_container_1">
+                다운로드
+            </button>
+        </div>
+    </div>
+
+    <div id="download_all" style="display: none;">
+        <div class="load_basic_font">
+            아무 파일이나 다운로드해보세요
+        </div>
+    </div>
+</body>
+</html>
