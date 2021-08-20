@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(255, 242, 231);
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+header{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.header_font{
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    margin: 15px;
+    padding: 40px 10px 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+#header_font_mid{
+    color: brown;
+    font-size: smaller;
+}
+
+#header_font_bottom{
+    color: rgb(0, 0, 0);
+    font-size: 60%
+}
+
+.menu_bar{
+    overflow: hidden;
+    margin: 130px 0px 0px 130px;
+    background-color: rgb(253, 229, 213);
+    width: max-content;
+    height: max-content;
+    padding: 100px 30px 100px 30px;
+}
+
+#upload{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.upload_items{
+    cursor: pointer;
+    margin: 7px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.upload_items:hover{
+    transform: scale(1.1);
+}
+
+.download{
+    margin: 200px 0px 15px 0px;
+}
+
+#download{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.download_items{
+    margin: 7px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.download_items:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.close{
+    width: 25px;
+    height: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+#upload_photo{
+    margin-top: 15px;
+    line-height: 400%;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    height: 400px;
+    text-align: center;
+}
+
+.upload_file{
+    color: grey;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.file{
+    margin: 30px 0px 20px 0px;
+}
+
+#download_photo{
+    margin-top: 15px;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    height: 400px;
+    text-align: center;
+}
+
+#container{
+    margin: 50px 0px 0px 0px;
+    align-items: center;
+}
+
+.download_btn{
+    margin: 20px 5px 5px 5px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(230, 230, 230);
+}
+
+.download_btn:hover{
+    transform: scale(1.1);
+}
+
+.remove_unfold_btn{
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgb(255, 248, 240);
+    cursor: pointer;
+}
+
+.remove_unfold_btn:hover{
+    transform: scale(1.1);
+}
