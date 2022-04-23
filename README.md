@@ -1,7 +1,9 @@
-#### 사진 전용 클라우드 서비스 구현    
-구현 기능
-1. 업로드 탭에서 사진 업로드
-2. 다운로드 탭에서 사진 모아보기
-3. 다운로드 탭에서 사진 미리보기
-4. 다운로드 탭에서 사진 선택 삭제
-5. 다운도드 탭에서 사진 다운로드
+#### Implementation of cloud service dedicated to photography
+-- unfinished
+<br><br><br>
+<b>Done</b> <br>
+1. Upload photos from the Uploads tab<br>
+2. View your photos in the Downloads tab<br>
+3. Preview your photos in the Downloads tab<br>
+4. Delete photo selection from Downloads tab<br>
+5. Download photos from the Downloads tab<br>
